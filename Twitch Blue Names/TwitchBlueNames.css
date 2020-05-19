@@ -1,0 +1,105 @@
+@-moz-document url-prefix("https://www.twitch.tv/"), url-prefix("https://www.twitch.tv/popout/") {
+/*Twitch user channel backgrounds*/
+
+a {
+    color: #fff !important;
+    text-shadow: 1px 1px 15px white;
+    text-decoration: none;
+}
+
+.tw-c-background-base {
+    background-color: #0e0e0e!important;
+    
+}
+
+.tw-core-button--secondary {
+    background-color: #121212;
+    color: #0e0e10;
+}
+
+.channel-header.tw-align-items-stretch.tw-flex.tw-flex-column.tw-full-height.tw-full-width.tw-justify-content-between.tw-pd-y-05 {
+    background: #0e0e0e;
+}
+
+.simplebar-content {
+    background: #0e0e0e;
+}
+
+.chat-author__display-name {
+    font-weight: 700;
+    color: #00ffec !important;
+    text-shadow: 13px 1px 26px #00ffec;
+}
+
+.chat-line__message, .chat-line__moderation, .chat-line__status {
+    background-color: #0e0e0e;
+
+}
+
+.chat-input.tw-block.tw-pd-b-1.tw-pd-x-1 {
+    background: #0e0e0e;
+}
+
+.channel-info-bar.tw-flex.tw-flex-wrap.tw-full-width.tw-justify-content-between.tw-pd-1 {
+    background: #0e0e0e;
+}
+
+.tw-core-button--primary {
+    background-color: #121212;
+    color: #fff;
+   border: solid 1px darkgrey;
+}
+
+/*cheermotes*/
+
+.cheermote-for-amount__cheer-amount--extremely-small {
+    color: #00ffec !important;
+}
+
+/*------*/
+
+/*SVG Buttons*/
+
+.tw-svg__asset--inherit {
+    fill: #00ffec;
+}
+
+.follow-btn--following, .tw-root--theme-dark .follow-btn--following, .tw-root--theme-light .follow-btn--following {
+    background: black;
+    color: #000;
+}
+
+.tw-core-button--secondary {
+    background-color: #121212;
+    color: #0e0e10;
+ 
+}
+
+.tw-c-text-live {
+    color: #00ffec !important;
+   
+}
+
+/*-----------*/
+
+/*-------------------*/
+
+/*input text areas/search inputs*/
+
+.chat-input__textarea textarea {
+    background: #121212;
+}
+
+.tw-textarea {
+  
+    border: solid 1px #2f2e2e;
+
+}
+
+.tw-textarea:focus {
+    background-color: #121212;
+    border-color: #00ffec;
+}
+
+/*------------------------------*/
+}
