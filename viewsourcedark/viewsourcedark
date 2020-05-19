@@ -1,0 +1,5 @@
+* Makes View-source: dark
+
+1. Create a bookmark and in the location: field paste
+
+javascript:(function(){ var h=document.getElementsByTagName('head')[0],s=document.createElement('style');s.setAttribute('type','text/css'); s.appendChild(document.createTextNode('body{background: #000;color:#fff;}'));h.appendChild(s);%20})()
