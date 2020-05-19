@@ -1,0 +1,381 @@
+/* ==UserStyle==
+@name           steempeekdark
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document url-prefix("https://steampeek.hu/") {
+::-webkit-scrollbar {
+    background-color: #171717;
+    color: darkgrey;
+}
+
+/*----Background Color Properties------------------------*/
+input, textarea, select, button {
+    color: #777 !important;
+}
+
+body {
+    background: #1b1b1b !important;
+    color: #777;
+}
+
+div.bg {
+    background: #1b1b1b !important;
+}
+
+.bg:after {
+    background:#1b1b1b !important;
+}
+
+#gradient_top {
+    background: #1b1b1b !important;
+}
+/*-------------------------------------------------------*/
+
+
+#filter_sample_input_container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 8px;
+    border: none;
+    background-color: #1b1b1b;
+}
+
+input, textarea {
+    background-color: #171717;
+}
+
+input#filter_text {
+    box-shadow: 1px 0px 5px -1px white;
+    border: solid 1px #656565;
+}
+
+#tag_selector, #tag_exclude_selector {
+    width: 108px;
+    font-size: 12px;
+    padding: 4px;
+    background: #1b1b1b;
+    color: grey;
+    border: none;
+    height: 38px;
+    box-shadow: 0px 0px 4px -1px white;
+    border-top: solid 1px grey;
+    border-bottom: solid 1px grey;
+}
+
+.filter_sample {
+    background-color: #1b1b1b;
+}
+
+#filter_sample_results {
+    background-color: #1b1b1b;
+}
+    
+#lister_lib_reload.dimmed {
+    background-color: #000;
+    border: solid 1px darkgrey;
+}    
+
+.result_list_app_container:nth-of-type(2n) {
+    background-color: #171717;
+}
+
+#filter_sample_selection_icon.searching:before {
+    background-color: #1b1b1b;
+}
+
+/*--------Background of Main Column------*/
+
+.header_content {
+    border-radius: 5px;
+    background: #1b1b1b;
+}
+
+.requested_header_container_holder {
+    background-color: #1b1b1b;
+}
+
+.site_message_compact {
+    background-color: #1b1b1b;
+}
+
+#bfleave1 {
+    background-color: #1b1b1b;
+    border-radius:  0px 0px 15px 15px;
+}
+
+.result_list_container {
+    background-color: #1b1b1b;
+    border-radius: 15px;
+}
+
+.top_rated_tags_block {
+    background-color: #1b1b1b;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.filter_sample:hover {
+    background-color: #2b2a2a;
+}
+    
+#submit_filter_sample_btn.highlighted, #submit_user_import_btn.highlighted, #lister_updater, #library_btn, #next_page_btn {
+    background-color: #000;
+    border: solid 1px darkgrey;
+}    
+
+/*---------------------------------------------*/
+
+/*----------MainPage text colors------*/
+.main_logo {
+    color: white;
+    text-shadow: none;
+}
+
+#share_block {
+    margin: 6px 0;
+    box-sizing: border-box;
+    line-height: 26px;
+    font-size: 12px;
+    color: grey;
+}
+
+h2 {
+    text-shadow: none;
+    color: white;
+}
+
+.quickfinder_element {
+  background-color: #171717;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px 0px darkgrey;
+  box-sizing: border-box;
+  outline: 0px solid white;  
+}
+
+.quickfinder_elements {
+    color: grey;
+}
+
+.app_info_list_price {
+    overflow-y: scroll;
+    margin: 4px 24px;
+    background-color: #171717;
+    /* border: solid 1px white; */
+}
+
+.app_sprating {
+    font-size: 13px;
+    background-color: #777;
+    border-radius: 5px;
+    color: white;
+}
+
+.highlight_app_label.new {
+    background-color: #777;
+    color: #bfbfbf;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#app_moreinfo_tooltip_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    z-index: 100;
+    background-color: #171717;
+    padding: 12px;
+    border: none;
+    max-width: 326px;
+    box-shadow: 0px 0px 5px 0px #ccc;
+}
+
+.result_requested_app_container .app_info_container {
+    background-color: #171717;
+}
+    
+    #main_container {
+    background-color: #171717;
+    border: solid 1px;
+}
+
+}
+
+.footer_content {
+    background-color: #1b1b1b !important;
+}
+@-moz-document url-prefix("https://steampeek.hu/?appid="), url-prefix("https://steampeek.hu/?q=") {
+::-webkit-scrollbar {
+    background-color: #171717;
+    color: darkgrey;
+}
+
+/*----Background Color Properties------------------------*/
+input, textarea, select, button {
+    color: #777 !important;
+}
+
+body {
+    background: #1b1b1b !important;
+    color: #777;
+}
+
+div.bg {
+    background: #1b1b1b !important;
+}
+
+.bg:after {
+    background:#1b1b1b !important;
+}
+
+#gradient_top {
+    height: 262px;
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: #1b1b1b;
+}
+    
+.requested_additional_container {
+background-color: #1b1b1b;
+border: solid 1px;
+border-radius: 15px;
+}
+
+#lister_status.highlight {
+    background-color: #656565;
+}
+
+#lister_result_container {
+    background-color: #1b1b1b !important
+        ;
+}
+/*-------------------------------------------------------*/
+
+.main_logo {
+    color: white;
+    text-shadow: none;
+}
+
+/*----------------------background colors appid body---------------------------------*/
+h1, h2 {
+    text-shadow: none;
+    color: white;
+}
+
+.header_content {
+    border-radius: 5px;
+    background: #1b1b1b;
+}
+
+.requested_header_container_holder {
+    background-color: #1b1b1b;
+}
+
+
+#filter_sample_input_container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 8px;
+    border: none;
+    background-color: #1b1b1b;
+}
+
+input, textarea {
+    background-color: #171717;
+}
+
+input#filter_text {
+    box-shadow: 0px 1px 1px -1px white;
+    border-radius: 15px 0px 0px 15px;
+}
+
+#tag_selector, #tag_exclude_selector {
+    width: 108px;
+    font-size: 12px;
+    padding: 4px;
+    background: #1b1b1b;
+    color: grey;
+    border: none;
+    height: 36px;
+    box-shadow: 0px 0px 4px -1px white;
+}
+
+
+
+select#tag_exclude_selector {
+    border-radius: 0px 15px 15px 0px;
+}
+
+.result_requested_app_container {
+    background-color: #1b1b1b;
+}
+
+.lister_controller_container {
+    background: #1b1b1b;
+}
+
+#lister_container {
+    background-color: #1b1b1b;
+}
+
+.lister_item_cont {
+    background-color: #171717;
+    border: none;
+    outline: solid white 0px;
+}
+
+.lister_item_cont {
+    background-color: #171717;
+    /* box-shadow: 0px 0px 0px 1px grey; */
+    border: solid 1px grey;
+    border-radius: 15px;
+}
+
+.lister_item_thumb {
+    border-radius: 15px 15px 0px 0px;
+}
+
+.top_rated_tags_block {
+    background-color: #1b1b1b;
+}
+
+.result_list_app_container {
+    background: #1b1b1b;
+}
+
+.app_info_list_price {
+    background-color: #171717;
+}
+
+.app_sprating {
+    font-size: 13px;
+    background-color: #777;
+    border-radius: 5px;
+    color: white;
+    opacity: 1 !important;
+}
+
+.ad_list_container {
+    background: #1b1b1b;
+}
+
+.filter_sample_selection {
+    background-color: #656565;
+}
+
+.btn {
+    color: #fff !important;
+}
+
+}
