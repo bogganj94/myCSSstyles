@@ -7,66 +7,99 @@
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://stackedit.io/app#") {
-    body {
-        background-color: #171717;
-    }
-        
-    /* Left Panel (File and folder nav panel) */    
-    .explorer__tree {
-        background: #171717;
-        color: #777;
-        /* border-right: solid 1px grey; */
-    }
+body {
+    background-color: #171717;
+}
+
+.gutter, .gutter__background {
+    background: #252525 !important;
+}  
     
-    .explorer {
-        background: grey;
-    }    
-     .explorer-node--selected>.explorer-node__item {
-        background-color: rgba(0,0,0,.2);
-        color: white;
-    }
-        
-    .explorer-node__item {
-        color: #777;
-    }    
-    .side-title {
-        background-color: #151414;
-        border-bottom: solid 1px grey;
-        color: #fff;
-    }
-        
-    .icon * {
-        fill: grey;
-    }  
-        
-    .explorer__tree:focus .explorer-node--selected>.explorer-node__item {
-        background: #121212;
-        color: #fff;
-        border-left: solid 1px grey;
-        border-right: solid 1px grey;
-    }
-        
-    /*Right Panel (Workspaces Customize Publish Etc)*/    
-        
-    .side-bar__panel--menu {
-        padding: 10px;
-        background: #171717;
-        color: #fff;
-    }
-        
-    .menu-entry {
-        text-align: left;
-        padding: 10px;
-        height: auto;
-        font-size: 17px;
-        line-height: 1.4;
-        text-transform: none;
-        white-space: normal;
-        color: #777;
-    }
-        
-    .side-bar__panel {
-        background: #171717;
-    }    
-        
-    }
+div.comment {
+    background: #171717;
+}  
+    
+.layout__panel--preview .comment-list__current-discussion, .layout__panel--preview .current-discussion, .layout__panel--preview .gutter__background, .layout__panel--preview .sticky-comment {
+    background-color: #171717;
+}    
+    
+.current-discussion__text span {
+    background-color: transparent !important;    
+}  
+    
+.comment__text blockquote, .comment__text dl, .comment__text h1, .comment__text h2, .comment__text h3, .comment__text h4, .comment__text h5, .comment__text h6, .comment__text ol, .comment__text p, .comment__text pre, .comment__text ul {
+    border: solid 1px #5a5a5a;
+    padding-left: 5px;
+}
+    
+.app--dark .discussion-editor-highlighting--selected, .app--dark .discussion-preview-highlighting--selected {
+    background-color: transparent;
+    text-decoration: underline;
+    text-decoration-color: darkorange !important;
+}
+    
+.app--dark .discussion-editor-highlighting, .app--dark .discussion-preview-highlighting {
+    background-color: transparent;
+    text-decoration: underline;
+    text-decoration-color: orange;
+}    
+    
+/* Left Panel (File and folder nav panel) */    
+.explorer__tree {
+    background: #171717;
+    color: #777;
+    /* border-right: solid 1px grey; */
+}
+
+.explorer {
+    background: grey;
+}    
+ .explorer-node--selected>.explorer-node__item {
+    background-color: rgba(0,0,0,.2);
+    color: white;
+}
+    
+.explorer-node__item {
+    color: #777;
+}    
+.side-title {
+    background-color: #151414;
+    border-bottom: solid 1px grey;
+    color: #fff;
+}
+    
+.icon * {
+    fill: grey;
+}  
+    
+.explorer__tree:focus .explorer-node--selected>.explorer-node__item {
+    background: #121212;
+    color: #fff;
+    border-left: solid 1px grey;
+    border-right: solid 1px grey;
+}
+    
+/*Right Panel (Workspaces Customize Publish Etc)*/    
+    
+.side-bar__panel--menu {
+    padding: 10px;
+    background: #171717;
+    color: #fff;
+}
+    
+.menu-entry {
+    text-align: left;
+    padding: 10px;
+    height: auto;
+    font-size: 17px;
+    line-height: 1.4;
+    text-transform: none;
+    white-space: normal;
+    color: #777;
+}
+    
+.side-bar__panel {
+    background: #171717;
+}    
+    
+}
