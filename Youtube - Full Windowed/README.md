@@ -1,3 +1,3 @@
 ## Youtube - Full Windowed
 
-<img = src="./images/preview.jpg"></img>
+<img src="./images/preview.jpg"></img>
