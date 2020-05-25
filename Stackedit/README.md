@@ -7,3 +7,4 @@ press ok.
 
 then using stylus(google chrome extension)
 write new style as usercss and copy everything from style.css into there.
+<img src="./images/preview.jpg"></img>
