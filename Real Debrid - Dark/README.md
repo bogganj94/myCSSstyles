@@ -1,4 +1,4 @@
 # realdebriddark
 real debrid dark 
-<img src='./misc/preview.jpg'>
+<img src='./images/preview.jpg'>
 
