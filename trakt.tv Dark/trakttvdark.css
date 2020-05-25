@@ -1,3 +1,11 @@
+/* ==UserStyle==
+@name           trakt tv dark
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
 @-moz-document url-prefix("https://trakt.tv/dashboard") {
 
 #ondeck-wrapper {
@@ -34,6 +42,10 @@
 #huckster-desktop-wrapper.light, #huckster-mobile-square-wrapper.light {
     background-color: #171717;
 }
+    
+#hu-ck--st-er-desk-top-wrapper.light, #hu-ck--st-er-mob-ile-square-wrapper.light {
+    background-color: #171717;
+}    
 
 #charts-wrapper {
 
@@ -61,6 +73,7 @@
     background-color: #131313;
 
 }
+    
 }
 
 @-moz-document url-prefix("https://trakt.tv/shows/"), url-prefix("https://trakt.tv/movies/") {
@@ -204,10 +217,10 @@
     font-family: proxima nova bold;
 }
 
-.titles {
+/* .titles {
     background: #171717 !important;
     color: white;
-}
+}*/
 
 #seasons-episodes-sortable .episode-stats {
     font-size: 13px;
@@ -221,6 +234,10 @@
 #seasons-episodes-sortable .under-info h3 a {
     color: red;
 }
+    
+#seasons-episodes-sortable .under-info .titles {
+    background-color: #171717;
+}        
 }
 
 @-moz-document url-prefix("https://trakt.tv/movies/") {
