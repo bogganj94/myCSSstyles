@@ -26,7 +26,7 @@ div.bg {
     background: #1b1b1b !important;
 }
 
-.bg:after {
+.bg:after {a
     background:#1b1b1b !important;
 }
 
@@ -50,11 +50,13 @@ div.bg {
 input, textarea {
     background-color: #171717;
 }
-
+    
 input#filter_text {
-    box-shadow: 1px 0px 5px -1px white;
-    border: solid 1px #656565;
-}
+    box-shadow: 1px 0px 5px -1px red;
+    border: solid 1px #171717;
+    background: #121212;
+    border-radius: 15px 0px 0px 15px;
+}   
 
 #tag_selector, #tag_exclude_selector {
     width: 108px;
@@ -64,10 +66,8 @@ input#filter_text {
     color: grey;
     border: none;
     height: 38px;
-    box-shadow: 0px 0px 4px -1px white;
-    border-top: solid 1px grey;
-    border-bottom: solid 1px grey;
-}
+    box-shadow: 0px 0px 4px -1px red;
+}    
 
 .filter_sample {
     background-color: #1b1b1b;
