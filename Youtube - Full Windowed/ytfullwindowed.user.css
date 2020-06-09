@@ -1,0 +1,35 @@
+/* ==UserStyle==
+@name           Youtube - Fill Window
+@namespace      https://github.com/gorybloodfest/myCSSstyles
+@version        1.0.0
+@description    With this little change the view for theatre mode fills the entire window, you can also full screen google chrome for a better view. scroll down to see comments then scroll up without clicking a button to toggle the view on/off
+@author         Me
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.youtube.com/watch?") { 
+    
+    /*1st Method*/
+        
+    /* ytd-watch-flexy[theater] #player-theater-container.ytd-watch-flexy, ytd-watch-flexy[fullscreen] #player-theater-container.ytd-watch-flexy {
+        position: relative;
+        width: 100%;
+        height: calc((9 / 16) * 100vw);
+        max-height: calc(100vh - 55px) !important;
+        min-height: 480px;
+        background: #000;
+    } */
+        
+    
+    /*Second Method*/    
+    ytd-watch-flexy[theater] #player-theater-container.ytd-watch-flexy, ytd-watch-flexy[fullscreen] #player-theater-container.ytd-watch-flexy {
+        position: absolute;
+        width: 100%;
+        height: calc((9 / 16) * 100vw);
+        max-height: calc(100vh - -1px) !important;
+        min-height: 480px;
+        background: #000;
+        top: 0 !important;
+        z-index: 9999;
+    }    
+        
+    }
