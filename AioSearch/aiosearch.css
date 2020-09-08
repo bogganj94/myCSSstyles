@@ -1,0 +1,186 @@
+/* ==UserStyle==
+@name           www.aiosearch.com - 9/7/2020, 8:28:57 PM
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document url-prefix("http://www.aiosearch.com/") {
+
+body, .theme--light.v-application {
+    background: #171717 !important;
+   
+}
+    
+* {
+  scrollbar-width: thin;
+  scrollbar-color: blue orange;
+}
+
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+  width: 6px;
+}
+*::-webkit-scrollbar-track {
+  background: #121212;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: #404040;
+    border-radius: 20px;
+    border: #000;
+}
+    
+.theme--light.v-icon {
+    color: #777 !important;
+}    
+    
+.toolbar .v-toolbar__content {
+    background: #171717;
+}
+
+.v-content__wrap {
+    background: #171717;
+}    
+
+.row.no-gutters.justify-center {
+    background: #171717;
+}    
+
+.loading-bar.v-card.v-card--flat.v-sheet.theme--light {
+    background: #171717;
+}    
+    
+.v-application .grey.lighten-3 {
+    background-color: #171717 !important;
+}    
+
+.v-application .grey.lighten-5 {
+    background-color: #171717 !important;
+}    
+ 
+.v-btn__content {
+    color: #fff;   
+}    
+
+.v-card:not(.v-sheet--tile):not(.v-card--shaped) {
+    background: #2f2e2e;
+}    
+ 
+.layout.search-bar.align-center.row.fill-height {
+    border: solid 1px #292929;
+    color: #fff;
+}    
+   
+.theme--light.v-input:not(.v-input--is-disabled) input, .theme--light.v-input:not(.v-input--is-disabled) textarea {
+    color: #fff;
+}    
+ 
+.theme--light.v-list-item:not(.v-list-item--active):not(.v-list-item--disabled) {
+    background: #121212;
+}
+    
+.theme--light.v-list-item:not(.v-list-item--active):not(.v-list-item--disabled) {
+    color: #fff !important;
+}    
+  
+.theme--light.v-list-item .v-list-item__mask {
+    color: #000;
+    background: #777;
+}    
+
+.theme--light.v-list {
+    background: #121212;
+    color: rgba(0,0,0,.87);
+}
+    
+.v-chip__content {
+    color: #777;
+}
+    
+label.v-label.theme--light {
+    color: #fff;
+}    
+ 
+.theme--light.v-divider {
+    border-color: #6f6f6f;
+} 
+    
+.v-input.v-input--is-label-active.v-input--is-dirty.theme--light.v-text-field.v-text-field--is-booted.v-text-field--enclosed.v-text-field--outlined {
+    background: #2f2e2e;
+}    
+    
+.v-window-item.v-window-item--active {
+    background: #2f2e2e;
+}
+    
+.v-tab {
+    color: #777 !important;
+}
+    
+p.title.font-weight-light {
+    color: #fffa;
+} 
+    
+.v-application .mt-4 {
+    color: #fff;
+}  
+    
+h5.d-inline-block {
+    color: #fff;
+}    
+    
+p.headline.ml-2 {
+    color: #777;
+}
+    
+section.mt-2 {
+    color: #fff;
+}    
+    
+}
+
+@-moz-document url-prefix("http://www.aiosearch.com/search/") {
+
+.engine-content .v-window__container, .engine-content .v-window-item {
+    height: 100%;
+    background: #171717;
+    } 
+
+.v-card__title {
+    color: #fff;
+}    
+ 
+.theme--light.v-card>.v-card__text, .theme--light.v-card .v-card__subtitle {
+    color: #d0d0d0;
+}    
+
+.tabs-container .tab-active, .tabs-container .tab-active:hover {
+    opacity: 1 !important;
+    background: #171717 !important;
+}    
+
+.tabs-container .tab span {
+    color: #fff !important;
+}    
+
+.layout.engine-list-item.align-center.justify-start.nowrap.fill-height {
+    background: #121212;
+}    
+
+.v-slide-group__content.v-tabs-bar__content {
+    background: #121212;
+}    
+
+.tabs-container .tab {
+    opacity: 1 !important;
+    background: #252424 !important;
+    border: solid 1px white;
+}    
+    
+.tabs-container .tab:hover {
+    opacity: 1 !important;
+    background: #121212 !important;
+}    
+    
+}
