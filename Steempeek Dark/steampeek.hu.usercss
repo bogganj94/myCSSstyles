@@ -175,7 +175,33 @@
 .footer_content {
     background-color: #1b1b1b !important;
 }
-@-moz-document url-prefix("https://steampeek.hu/?appid=") {
+
+/*Updated Css code*/
+
+.header_container {
+    background-color: #121212 !important;
+    border-bottom: 1px solid grey !important;
+}
+
+#filter_sample_selection_cont {
+    background-color: #121212 !important;
+    border: 1px solid grey !important;
+}
+
+.requested_result_main_container:not(.opened) {
+    max-height: 140px;
+    overflow: visible !important;
+}
+
+.requested_result_main_container:not(.opened):after {
+    display: none !important;
+    
+}
+
+.lister_item_data_cont:not(.expanded) .lister_item_info_details.summary:after {
+    background: none !important;
+}
+@-moz-document url-prefix("https://steampeek.hu/?appid="), url-prefix("https://steampeek.hu/?q=") {
     ::-webkit-scrollbar {
         background-color: #171717;
         color: #a9a9a9;
