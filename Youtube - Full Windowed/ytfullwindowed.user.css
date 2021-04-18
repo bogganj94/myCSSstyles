@@ -19,6 +19,11 @@
         background: #000;
     } */
         
+/* Disable the scrollbar in theatre mode if wanted     
+::-webkit-scrollbar {
+    width: 0 !important;
+    background: transparent;
+    } */
     
     /*Second Method*/    
     ytd-watch-flexy[theater] #player-theater-container.ytd-watch-flexy, ytd-watch-flexy[fullscreen] #player-theater-container.ytd-watch-flexy {
