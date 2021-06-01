@@ -2,7 +2,7 @@
 @name           yandex dark
 @namespace      github.com/openstyles/stylus
 @version        1.0.0
-@description    combine this style with night eye: https://chrome.google.com/webstore/detail/night-eye-dark-mode-on-an/alncdjedloppbablonallfbkeiknmkdi?hl=en
+@description    A new userstyle
 @author         Me
 ==/UserStyle== */
 
@@ -42,6 +42,10 @@ span.service__name {
     color: #fff;
 }
     
+.Link_theme_normal:visited {
+    color: rgb(153, 153, 230) !important;
+}
+ 
     
 .TextContainer {
     color: #777;
@@ -68,7 +72,12 @@ span.service__name {
 .serp-footer__main {
     background-color: #1b1b1b;
     background-image: none !important;
-}    
+}
+    
+    
+.showcase__item-text {
+    color: #777;
+}
     
     
 /* End of CSS */
